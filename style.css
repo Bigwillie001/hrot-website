@@ -21,7 +21,7 @@ width:160px;
 height:160px;
 object-fit:cover;
 border-radius:50%;
-box-shadow:0 0 20px #00ff7f,0 0 40px #00ff7f;
+box-shadow:0 0 10px #00ff7f,0 0 18px rgba(0,255,127,0.6);
 margin-bottom:20px;
 }
 
@@ -59,12 +59,13 @@ margin-bottom:20px;
 }
 
 .contract-box button {
-  background:#00ff7f;
-  border:none;
-  padding:10px 16px;
-  border-radius:10px;
-  cursor:pointer;
-  font-weight:bold;
+background:#00ff7f;
+border:none;
+padding:6px 12px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+font-size:12px;
 }
 
 .buy-buttons {
@@ -75,20 +76,21 @@ margin-bottom:20px;
 }
 
 .buy-btn, .dex-btn {
-  display:inline-block;
-  background:#00ff7f;
-  color:black;
-  padding:16px 40px;
-  border-radius:30px;
-  font-weight:bold;
-  text-decoration:none;
-  box-shadow:0 0 20px #00ff7f;
-  transition:0.3s;
+display:inline-block;
+background:#00ff7f;
+color:black;
+padding:14px 32px;
+border-radius:26px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 0 10px rgba(0,255,127,0.5);
+transition:0.3s;
+font-size:15px;
 }
 
 .buy-btn:hover, .dex-btn:hover {
-  transform:translateY(-3px);
-  box-shadow:0 0 30px #00ff7f;
+transform:translateY(-2px);
+box-shadow:0 0 14px rgba(0,255,127,0.6);
 }
 
 .chart-section{

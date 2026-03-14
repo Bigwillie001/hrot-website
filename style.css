@@ -17,10 +17,12 @@ body {
 }
 
 .logo {
-  width:160px;
-  border-radius:50%;
-  box-shadow:0 0 20px #00ff7f, 0 0 40px #00ff7f;
-  margin-bottom:20px;
+width:160px;
+height:160px;
+object-fit:cover;
+border-radius:50%;
+box-shadow:0 0 20px #00ff7f,0 0 40px #00ff7f;
+margin-bottom:20px;
 }
 
 .title {
@@ -89,31 +91,6 @@ body {
   box-shadow:0 0 30px #00ff7f;
 }
 
-.socials {
-  display:flex;
-  justify-content:center;
-  gap:20px;
-}
-
-.socials a {
-  width:60px;
-  height:60px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  border-radius:50%;
-  background:#111;
-  border:1px solid #333;
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
-  transition:0.3s;
-}
-
-.socials a:hover {
-  background:#00ff7f;
-  color:black;
-}
 .chart-section{
 margin-top:40px;
 border:1px solid #222;
@@ -140,4 +117,21 @@ transition:0.4s;
 #copy-toast.show{
 opacity:1;
 bottom:50px;
+}
+
+@media (max-width:500px){
+
+.title{
+font-size:42px;
+}
+
+.contract-box{
+flex-direction:column;
+gap:10px;
+}
+
+.contract-box button{
+width:100%;
+}
+
 }

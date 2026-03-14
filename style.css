@@ -114,3 +114,30 @@ body {
   background:#00ff7f;
   color:black;
 }
+.chart-section{
+margin-top:40px;
+border:1px solid #222;
+border-radius:14px;
+overflow:hidden;
+box-shadow:0 0 20px rgba(0,255,127,0.15);
+}
+#copy-toast{
+position:fixed;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+background:#00ff7f;
+color:black;
+padding:12px 24px;
+border-radius:30px;
+font-weight:bold;
+box-shadow:0 0 20px #00ff7f;
+opacity:0;
+pointer-events:none;
+transition:0.4s;
+}
+
+#copy-toast.show{
+opacity:1;
+bottom:50px;
+}
